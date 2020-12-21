@@ -54,7 +54,7 @@ Now you can start:
 ```js
 import { honst } from 'honst';
 
-const { data, delta } = honest({
+const { data, delta } = honst({
   data: [
     { username: "johndoe", name: "John", surname: "Doe", age: "22" },
     { username: "johndoe", name: "John", surname: "Doe", age: "25" }
@@ -98,7 +98,7 @@ Just pass `pivot` value `scan` or `reverse-scan`.
 If you want to fix all the rows from **top-down** or **bottom-up**, this will scan the data and fix'em all.
 
 ```js
-const { data, delta } = honest({
+const { data, delta } = honst({
   data: [
     { username: "johndoe", name: "John", surname: "Doe", age: "22" },
     { username: "johndoe", name: "John", surname: "Doe", age: "25" },
@@ -135,7 +135,7 @@ and scan to the top, so the bottom rows will be assumed correct.
 Yes it supports nested objects as well.
 
 ```js
-const { data, delta } = honest({
+const { data, delta } = honst({
   data: [
     // ... some nested data
   ],
