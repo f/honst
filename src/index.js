@@ -21,7 +21,7 @@ function scan(reversed, data, rules, delta) {
     if (reversed) {
       convertedIndex = data.length - pivotIndex - 1;
     }
-    const pivotScan = honest({
+    const pivotScan = honst({
       data: scanData,
       pivot: convertedIndex,
       rules,
