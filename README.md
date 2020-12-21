@@ -19,7 +19,7 @@ const data = [
 ]
 ```
 
-According to `username` field, there are many integrity issues around the array. So let's **honst** fix these:
+According to `username` field, there are many integrity issues around the array. So let **honst** fix these:
 
 ```diff
 [
