@@ -45,7 +45,7 @@ According to `username` field, there are many integrity issues around the array.
 3. Referencing to `data[3].username`, `name`, `surname`, and `age` should be `John`, `Apple` and `29`.
 4. But `data[1].age` is `25`, `data[1].surname` is `Orange` and these should be fixed as well.
 
-**honst** simply fixes these integirty issues.
+**honst** simply fixes these integrity issues.
 
 ## Usage
 
