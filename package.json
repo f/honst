@@ -22,9 +22,9 @@
   "author": "Fatih Kadir Akin <fatihkadirakin@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/f/honest/issues"
+    "url": "https://github.com/f/honst/issues"
   },
-  "homepage": "https://github.com/f/honest#readme",
+  "homepage": "https://github.com/f/honst#readme",
   "dependencies": {
     "lodash": "^4.17.20"
   },
