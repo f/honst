@@ -1,6 +1,6 @@
 {
   "name": "honst",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Data Integrity fixer for JavaScript Object-Arrays.",
   "main": "src/index.js",
   "directories": {
