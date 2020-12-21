@@ -8,6 +8,13 @@ Data Integrity fixer for an **object matrix**.
 - On editing a **joined** matrix data needs the data integrity to be kept.
 - Keeping your local state correct.
 
+## Demo
+
+<img src="./honst-demo.gif">
+
+You can play with honst on CodeSandbox:
+[![Edit honst demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/honst-demo-6s187?fontsize=14&hidenavigation=1&theme=light)
+
 ## Overview
 
 ```js
