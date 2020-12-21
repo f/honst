@@ -41,7 +41,19 @@ According to `username` field, there are many integrity issues around the array.
 
 ## Usage
 
+Install using `npm` or `yarn`:
+
+```
+npm install honst
+# or
+yarn add honst
+```
+
+Now you can start:
+
 ```js
+import { honst } from 'honst';
+
 const { data, delta } = honest({
   data: [
     { username: "johndoe", name: "John", surname: "Doe", age: "22" },
