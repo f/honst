@@ -1,5 +1,5 @@
 const _ = require("lodash");
-const { honest } = require("../src/index");
+const { honst } = require("../src/index");
 
 describe("integrity", () => {
   test("fix data integrity according to given field, given pivot", () => {
@@ -8,7 +8,7 @@ describe("integrity", () => {
       { username: "johndoe", name: "John", surname: "Doe", age: "25" },
     ];
 
-    const newData = honest({
+    const newData = honst({
       data,
       pivot: 0,
       rules: {
@@ -42,7 +42,7 @@ describe("integrity", () => {
       { username: "johndoe2", name: "John", surname: "Doez", age: "33" },
     ];
 
-    const newData = honest({
+    const newData = honst({
       data,
       pivot: "scan",
       rules: {
@@ -92,7 +92,7 @@ describe("integrity", () => {
       { username: "johndoe2", name: "John", surname: "Doez", age: "33" },
     ];
 
-    const newData = honest({
+    const newData = honst({
       data,
       pivot: "reverse-scan",
       rules: {

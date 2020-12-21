@@ -48,7 +48,7 @@ function scan(reversed, data, rules, delta) {
  * @param delta: boolean
  * @returns {{data: Object[], delta: Object[]}}
  */
-function honest({ data, pivot, rules, delta }) {
+function honst({ data, pivot, rules, delta }) {
   if ([SCAN, REVERSE_SCAN].includes(pivot)) {
     return scan(pivot === REVERSE_SCAN, data, rules, delta);
   }
@@ -92,5 +92,5 @@ function honest({ data, pivot, rules, delta }) {
 }
 
 module.exports = {
-  honest,
+  honst,
 };
