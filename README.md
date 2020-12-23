@@ -8,30 +8,6 @@ Data Integrity fixer for an **object matrix**.
 - On editing a **joined** matrix data needs the data integrity to be kept.
 - Keeping your local state correct.
 
-## Parameters
-
-| Name        | What's?                                                                    |  Type             | Value
-| ----------- | -------------------------------------------------------------------------  | ----------        | -------
-| data        | list to check                                                              | Array             | required
-| rules       | determines which area the areas will be controlled according to.           | Array             | requried
-| pivot       | Download the index of the data considered correct in the list.             | Number or String  | requried / number - scan - reverse-scan
-| delta       | Used to get information about data corrected as a result of the operations | Boolean           | false
-
-<br />
-
-Result in `delta` :
-
-
-|                    |                |
-| -----------------  | -------------- |
-| **candidatePath**  | modified path
-| **falseValue**     | modified incorrect value
-| **candidateValue** | new value
-| **pivot**          | correct value order (index) in data
-| **candidateIndex** | modified value order (index) in data
-
-
-
 ## Demo
 
 <img src="./honst-demo.gif">
@@ -178,6 +154,30 @@ const { data, delta } = honst({
   }
 })
 ```
+
+## Parameters
+
+| Name        | What's?                                                                    |  Type             | Value
+| ----------- | -------------------------------------------------------------------------  | ----------        | -------
+| data        | list to check                                                              | Array             | `object[]`
+| rules       | determines which area the areas will be controlled according to.           | Array             | `object`
+| pivot       | the index of the data considered correct in the list.                      | Number or String  | `number | "scan" | "reverse-scan"`
+| delta       | Used to get information about data corrected as a result of the operations | Boolean           | `boolean` (Optional)
+
+<br />
+
+Result in `delta` :
+
+
+|                    |                |
+| -----------------  | -------------- |
+| **candidatePath**  | modified path
+| **falseValue**     | modified incorrect value
+| **candidateValue** | new value
+| **pivot**          | correct value index in data
+| **candidateIndex** | modified value index in data
+
+
 
 ## Contribution
 
